@@ -1,3 +1,6 @@
+
+PUNTO 1.
+
 import numpy as np
 from scipy.optimize import linprog
 
@@ -35,6 +38,7 @@ if res.success:
 
 #--------------------------------------------------------------------------------------------------------------
 
+PUNTO 2.
 
 import numpy as np
 
@@ -72,6 +76,7 @@ else:
 
 #---------------------------------------------------------------------------------------------------------
 
+PUNTO 3.
 
 import numpy as np
 from scipy.integrate import solve_ivp
@@ -112,6 +117,7 @@ print(f"Equilibrio teórico I*:  {P - gamma/beta:.1f} personas")
 
 #-------------------------------------------------------------------------------------------------------------
 
+PUNTO 4.
 
 import numpy as np
 from scipy.optimize import fsolve
